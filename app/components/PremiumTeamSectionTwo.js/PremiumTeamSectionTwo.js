@@ -554,7 +554,7 @@ export default function PremiumTeamSection() {
                   <video
                     ref={setVidRef(index)}
                     id={`video-${index}`}
-                    muted
+                    
                     playsInline
                     preload="auto"
                     className="absolute inset-0 z-20 h-full w-full object-contain opacity-0 pointer-events-none"
